@@ -23,6 +23,9 @@ inputs:
     description: Whether or not to validate the CF API's TLS certificate
     required: false
     default: true
+  flags:
+    description: Extra flags to be passed to the cf push command
+    required: false
 
 runs:
   using: docker
